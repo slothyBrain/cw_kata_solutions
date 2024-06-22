@@ -10,6 +10,11 @@ const thinkingAndTesting = (num, base) =>
     ? 0
     : num - Math.pow(base, Math.floor(Math.log(num) / Math.log(base)))
 
+// others solution
+// SithFire, NunoOliveira, ThisIsUndefined, pawelpikul, taras.bilettsky, Mayra Facio, AndresMartinez0506, dshamsani, rofidzakiabdulaziz, radidaditia (+ 1)
+// thinkingAndTesting = (num, base) =>
+//   num - Math.pow(base, Math.floor(Math.log(num) / Math.log(base)))
+
 console.log(thinkingAndTesting(1, 2)) // 0
 console.log(thinkingAndTesting(2, 2)) // 0
 console.log(thinkingAndTesting(3, 2)) // 1
